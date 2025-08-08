@@ -5,10 +5,11 @@ import ReusableAdmin from '@/components/ReusableAdmin'
 import UseStateTypes from '@/components/UseStateTypes'
 
 import React from 'react'
+import FormTypes from '@/components/FormTypes'
 
 const page = () => {
   return (
-    <main>
+    <main className='h-screen w-full bg-white '>
       <ComponentTypes name={"John"} age={20}/>
       <br />
 
@@ -23,6 +24,9 @@ const page = () => {
       <br/>
 
       <UseStateTypes/>
+      <br />
+
+      <FormTypes/>
     </main>
   )
 }
