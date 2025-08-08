@@ -5,7 +5,7 @@ interface UserPropsInterface { //Third method for defining types for props
     age: number;
 }
 
-const User = ({name, age}: {name: string; age: number}) => { //First method for defining types for props
+const ComponentTypes = ({name, age}: {name: string; age: number}) => { //First method for defining types for props
   return (
     <div>
         <h1>{name}</h1>
@@ -14,4 +14,4 @@ const User = ({name, age}: {name: string; age: number}) => { //First method for 
   )
 }
 
-export default User
+export default ComponentTypes
